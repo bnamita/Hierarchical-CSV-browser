@@ -1,0 +1,69 @@
+.section {
+    border: 1px solid gray;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    color: gray;
+    overflow: auto;
+}
+
+.box:first-child {
+    float: left;
+}
+
+.container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.key {
+    padding-left: 2px;
+}
+
+.num {
+    color: green;
+}
+
+.active {
+    background-color: beige;
+}
+
+.fa-caret-right {
+    float: right;
+    font-size: 18px;
+}
+
+h2 {
+    color: gray;
+}
+
+#value_list {
+    border: 1px solid #ccc;
+    font-size: 14px;
+    height: 34px;
+    width: 268px;
+    color: gray;
+}
+
+label, option {
+    color: gray;
+
+}
+
+.header {
+    font-size: 24px;
+    color: gray;
+    font-weight: bold;
+
+}
+
+.list_span {
+    text-align: center;
+    margin-left: 200px;
+}
