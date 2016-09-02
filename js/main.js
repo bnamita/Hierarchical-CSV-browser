@@ -19,7 +19,7 @@ d3.csv("./data/nagpur_budget_data.csv", function(csv_data) {
         nested_data = nested_data.rollup(function (leaves) {
                 return {
                     "length": leaves.length, "total_spend": d3.sum(leaves, function (d) {
-                        return parseFloat(d['2016-17 standing committee']);
+                        return parseFloat(d[selectedVal]);
                     })
                 }
             })
